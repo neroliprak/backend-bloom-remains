@@ -1,0 +1,11 @@
+### Récupérer toutes les fleurs
+GET http://localhost:3000/flowers
+
+### Ajouter une nouvelle fleur
+POST http://localhost:3000/flowers
+Content-Type: application/json
+
+{
+  "name": "Marguerite",
+  "color": "white"
+}
